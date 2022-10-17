@@ -10,10 +10,10 @@ jobs:
   sync-to-hub:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.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 }}
+          HF_TOKEN: ${{secrets.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}}
         run: git push https://clatonh:$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@huggingface.co/spaces/moth_or_butterfly main
