@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Clatonh:$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@huggingface.co/spaces/Clatonh/moth_or_butterfly main
+        run: git push https://Clatonh:$HF_TOKEN@huggingface.co/spaces/Clatonh/moth_or_butterfly main
