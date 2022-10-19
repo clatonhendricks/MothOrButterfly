@@ -17,3 +17,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: git push --force https://Clatonh:$HF_TOKEN@huggingface.co/spaces/Clatonh/moth_or_butterfly main
+
